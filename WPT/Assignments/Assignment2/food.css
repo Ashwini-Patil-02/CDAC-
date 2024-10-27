@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(14, 9, 9);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-left: 30px;
+  font-size: 26px;
+  border-bottom: 2px solid white;
+}
+nav h1 {
+  font-size: 50px;
+  color: rgba(250, 10, 10, 0.801);
+  border-bottom: 5px solid rgba(250, 10, 10, 0.801);
+  border-radius: 30px;
+  font-family: "Courgette", cursive;
+  margin-top: 3px;
+  margin-left: 90px;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  margin-inline: 30px;
+}
+/* ul li:hover { 
+  background-color: rgb(0, 255, 221);
+}*/
+
+.btn button {
+  width: 100px;
+  height: 35px;
+  border: 3px solid rgba(250, 10, 10, 0.801);
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.btn button:hover {
+  background-color: rgba(230, 15, 55, 0.912);
+}
+
+li a {
+  text-decoration: none;
+  color: azure;
+}
+a:hover {
+  background-color: rgba(250, 10, 10, 0.801);
+  text-decoration: dotted;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.main-div {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 30px;
+}
+.main-div.head {
+  font-size: 70px;
+  margin-left: 40px;
+}
+.head button {
+  width: 180px;
+  height: 47px;
+  background-color: rgba(250, 10, 10, 0.801);
+  color: white;
+  font-size: 25px;
+  border-radius: 10px;
+  margin-left: 500px;
+}
+.head button:hover {
+  background-color: black;
+  border: 3px solid rgba(250, 10, 10, 0.801);
+  cursor: pointer;
+}
+.img img {
+  margin-right: 30px;
+  width: 400px;
+}
+h1 {
+  font-size: 50px;
+  margin-left: 500px;
+}
+
+.images {
+  margin-left: 50px;
+}
+.images img {
+  margin-right: 45px;
+}
