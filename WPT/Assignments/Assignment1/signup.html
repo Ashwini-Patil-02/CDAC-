@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- External fonts should be linked in the head, not in the style section -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwright+GB+S:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Playwright GB S", sans-serif;
+      }
+      #container {
+        background: rgb(246, 240, 243);
+        width: 550px;
+        height: 480px;
+        text-align: center;
+        padding: 10px 20px;
+        margin: 80px auto;
+        border-radius: 15px;
+        transition: 0.15s ease;
+      }
+      body {
+        background: linear-gradient(#ed2d2d, #3b322f);
+      }
+      #heading {
+        padding-top: 20px;
+      }
+      input {
+        width: 70%;
+        margin-bottom: 25px;
+        margin-left: 2px;
+        padding: 15px 0;
+        border-radius: 8px;
+      }
+      button {
+        width: 35%;
+        padding: 10px;
+        background: rgb(211, 25, 25);
+        color: rgb(30, 29, 29);
+        cursor: pointer;
+        border: 1px dashed red;
+        border-radius: 8px;
+        font-size: 20px;
+        border: 2px solid transparent;
+        transition: 0.3s ease;
+      }
+      button:hover {
+        background-color: black;
+        /* color: rgb(237, 229, 229); */
+        border-color: #f5ecec;
+        background: rgba(18, 3, 3, 0.15);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h2>Sign up</h2>
+      <form>
+        <input type="text" placeholder="Enter first Name" />
+        <input type="text" placeholder="Enter last Name" />
+        <input type="text" placeholder="Enter Your Email" />
+        <input type="password" placeholder="Enter Your password" />
+        <p>Already have a Member? log in</p>
+
+        <button type="submit">Sign up</button>
+      </form>
+    </div>
+  </body>
+</html>
